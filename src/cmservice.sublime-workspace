@@ -1,0 +1,995 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_is",
+				"_isPid_Locked"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"se",
+				"seconds"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"DB",
+				"DB_Engine"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"vl",
+				"value"
+			],
+			[
+				"I",
+				"Integer"
+			],
+			[
+				"logg",
+				"logger"
+			],
+			[
+				"tru",
+				"true_rms"
+			],
+			[
+				"tu",
+				"true_rms"
+			],
+			[
+				"D",
+				"DataHarvest"
+			],
+			[
+				"T",
+				"True"
+			],
+			[
+				"r",
+				"rdata"
+			],
+			[
+				"ser",
+				"serialport"
+			],
+			[
+				"dat",
+				"data_valid"
+			],
+			[
+				"da",
+				"data_valid"
+			],
+			[
+				"ra",
+				"raw_data"
+			],
+			[
+				"_pa",
+				"_parsing"
+			],
+			[
+				"xor",
+				"xor8"
+			],
+			[
+				"by",
+				"bytes"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"v",
+				"val_count"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"sp",
+				"spacket"
+			],
+			[
+				"va",
+				"val_array\t(data_packet.h)"
+			],
+			[
+				"ad",
+				"adc_ref_val\t(data_packet.h)"
+			],
+			[
+				"spa",
+				"spacket"
+			],
+			[
+				"ui",
+				"uint32_t"
+			],
+			[
+				"uin",
+				"uint16_t"
+			],
+			[
+				"ADC_I",
+				"ADC_InitStructure"
+			],
+			[
+				"AIN",
+				"AIN1\t(hal_adc.c)"
+			],
+			[
+				"ADC",
+				"ADC1"
+			],
+			[
+				"hal_u",
+				"hal_uart_dbg.h\t(hal.c)"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"hal_",
+				"hal_ok"
+			],
+			[
+				"GPIO",
+				"GPIO_Pin"
+			],
+			[
+				"hal",
+				"hal.h\t(main.c)"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"si",
+				"sizeof\t(core_task_manager.c)"
+			],
+			[
+				"no",
+				"no_problems"
+			],
+			[
+				"te",
+				"test_func"
+			],
+			[
+				"str",
+				"struct\tstruct"
+			],
+			[
+				"ker",
+				"kernel.h\t(core_event_handlers.c)"
+			],
+			[
+				"x2",
+				"x2_val"
+			],
+			[
+				"tas",
+				"tasks"
+			],
+			[
+				"keve",
+				"k_event"
+			],
+			[
+				"ha",
+				"handler\t(kernel.h)"
+			],
+			[
+				"task",
+				"task_num"
+			],
+			[
+				"core_event_",
+				"core_event_manager.h\t(main.c)"
+			],
+			[
+				"so",
+				"sort_task"
+			],
+			[
+				"ts",
+				"task"
+			],
+			[
+				"core",
+				"core_task"
+			],
+			[
+				"pr",
+				"prior\t(kernel.h)"
+			],
+			[
+				"ta",
+				"task_hndl\t(kernel.h)"
+			],
+			[
+				"k",
+				"kcodes"
+			],
+			[
+				"core_eve",
+				"core_event_manager.h\t(core_event_manager.c)"
+			],
+			[
+				"OP",
+				"OPT"
+			],
+			[
+				"e",
+				"ev"
+			],
+			[
+				"k_",
+				"k_event"
+			],
+			[
+				"is",
+				"is_hndl_in_list"
+			],
+			[
+				"uint",
+				"uint8_t"
+			],
+			[
+				"h",
+				"hndl"
+			],
+			[
+				"eve",
+				"event_query"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"ev",
+				"event_query"
+			],
+			[
+				"ma",
+				"max_events"
+			],
+			[
+				"core_set",
+				"core_set_lse"
+			],
+			[
+				"core_",
+				"core_idle\t(main.c)"
+			],
+			[
+				"SYS",
+				"SYSTICK_FREQ\t(kernel_configuration.h)"
+			],
+			[
+				"sd",
+				"stdint.h\t(kernel.h)"
+			],
+			[
+				"make",
+				"makefile"
+			],
+			[
+				"c",
+				"cmsis"
+			],
+			[
+				"M",
+				"MAKEFILE_INC"
+			],
+			[
+				"main",
+				"main.o\t(makefile)"
+			],
+			[
+				"CC",
+				"CCFLAGS"
+			],
+			[
+				"OB",
+				"OBJ"
+			],
+			[
+				"start",
+				"startup_stm32l1xx_md.s\t(makefile)"
+			],
+			[
+				"MA",
+				"makefile"
+			],
+			[
+				"mi",
+				"misc.h\t(misc.c)"
+			],
+			[
+				"a",
+				"A"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
+				"_",
+				"__name__"
+			],
+			[
+				"lo",
+				"log2\tstatement"
+			],
+			[
+				"l",
+				"logging"
+			],
+			[
+				"log",
+				"logging"
+			],
+			[
+				"n",
+				"next\tfunction"
+			],
+			[
+				"t",
+				"set_trace\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "docs/postgres.md",
+			"settings":
+			{
+				"buffer_size": 1105,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db_aver_1min.py",
+			"settings":
+			{
+				"buffer_size": 2201,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db_aver_10min.py",
+			"settings":
+			{
+				"buffer_size": 2243,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db_datastrip.py",
+			"settings":
+			{
+				"buffer_size": 3149,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data_analysis.py",
+			"settings":
+			{
+				"buffer_size": 3135,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 32.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"mark ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ana",
+				"Anaconda: Enable linting on this file"
+			],
+			[
+				"anaconda: ",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Package Control Settings – User"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 112.0,
+		"history":
+		[
+			"git",
+			"oleg(4)",
+			"print (a)",
+			"a=5",
+			"print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"dh = hashlib.sha256(by).hexdigest()",
+			" dh = hashlib.sha256(by).hexdigest()",
+			"by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read()",
+			"urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) )",
+			"ipp = sublime.installed_packages_path()",
+			"pf = 'Package Control.sublime-package'",
+			"h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'",
+			"import urllib.request,os,hashlib",
+			"print ('oleg')",
+			"print (oleg)",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"reboot",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/saurex/Projects/cmservice/cmservice",
+		"/home/saurex/Projects/cmservice/cmservice/src"
+	],
+	"file_history":
+	[
+		"/home/saurex/Projects/cmservice/cmservice/src/mitter.log",
+		"/home/saurex/Projects/cmservice/cmservice/src/mitter.log.1",
+		"/home/saurex/Projects/cmservice/cmservice/src/db_datastrip.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/db_aver_1min.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/db_aver_10min.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/data_harvester.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/docs/project_struct.md",
+		"/home/saurex/Projects/cmservice/cmservice/src/main_routine.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/main.py",
+		"/run/user/1000/gvfs/smb-share:server=192.168.17.168,share=storage/Developments/Neocore/dgLux/Installer/readme.md",
+		"/home/saurex/Projects/cmservice/cmservice/daemon.sh",
+		"/home/saurex/Projects/cmservice/cmservice/src/daemon.sh",
+		"/home/saurex/Projects/cmservice/cmservice/src/data_analysis.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/frame.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/harvester_test.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/for_debug.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/dbdatastrip.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/docs/postgres.md",
+		"/home/saurex/Projects/cmservice/cmservice/src/docs/rpi.md",
+		"/home/saurex/Projects/cmservice/cmservice/src/docs/dbdatastrip.py",
+		"/home/saurex/Projects/Current_mitter_hw/stdperiph/src/stm32l1xx_adc.c",
+		"/home/saurex/Projects/Current_mitter_hw/docs/prog and debug.md",
+		"/home/saurex/Projects/Current_mitter_hw/inc/hal/hal_gpio.h",
+		"/home/saurex/Projects/Current_mitter_hw/src/hal/hal.c",
+		"/home/saurex/Projects/Current_mitter_hw/src/hal/hal_adc.c",
+		"/home/saurex/Projects/Current_mitter_hw/src/hal/hal_gpio.c",
+		"/home/saurex/Projects/Current_mitter_hw/src/kernel/data_packet.c",
+		"/home/saurex/Projects/Current_mitter_hw/src/hal/hal_uart_sys.c",
+		"/home/saurex/Projects/Current_mitter_hw/inc/kernel/data_packet.h",
+		"/home/saurex/Projects/Current_mitter_hw/src/kernel/main.c",
+		"/home/saurex/.config/sublime-text-3/Packages/rsub/rsub.sublime-settings",
+		"/run/user/1000/gvfs/smb-share:server=192.168.17.168,share=storage/Developments/Neocore/Cases/Node case tech req/Tech req for node.md",
+		"/run/user/1000/gvfs/smb-share:server=192.168.17.168,share=storage/Developments/Neocore/Cases/изменения_узла.md",
+		"/home/saurex/Projects/Current_mitter_hw/stdperiph/src/stm32l1xx_gpio.c",
+		"/home/saurex/Projects/Current_mitter_hw/stdperiph/inc/stm32l1xx_gpio.h",
+		"/home/saurex/Projects/Current_mitter_hw/makefile",
+		"/home/saurex/Projects/Current_mitter_hw/src/hal/makefile",
+		"/home/saurex/Projects/Current_mitter_hw/stdperiph/inc/stm32l1xx_adc.h",
+		"/home/saurex/Projects/Current_mitter_hw/inc/hal/hal_adc.h",
+		"/home/saurex/Projects/Current_mitter_hw/inc/hal/hal_uart_sys.h",
+		"/home/saurex/Projects/Current_mitter_hw/stdperiph/inc/stm32l1xx_rcc.h",
+		"/run/user/1000/gvfs/smb-share:server=192.168.17.168,share=storage/Developments/Neocore/NeocoreCurrentMeter/шифро",
+		"/home/saurex/Projects/Current_mitter_hw/src/kernel/common_conf.h",
+		"/opt/dsa/dsa-server/bin/dglux_server.dart",
+		"/opt/dsa/dsa-server/bin/daemon.dart",
+		"/home/saurex/Документы/Current_mitter_hw/src/kernel/makefile",
+		"/home/saurex/Документы/Current_mitter_hw/stdperiph/inc/stm32l1xx_adc.h",
+		"/home/saurex/Документы/Current_mitter_hw/stdperiph/src/stm32l1xx_tim.c",
+		"/home/saurex/Документы/Current_mitter_hw/stdperiph/inc/stm32l1xx_tim.h",
+		"/home/saurex/Документы/Current_mitter_hw/stdperiph/src/stm32l1xx_adc.c",
+		"/home/saurex/Документы/Current_mitter_hw/src/hal/hal_tim6.c",
+		"/home/saurex/Документы/Current_mitter_hw/inc/hal/hal_adc.h",
+		"/home/saurex/Документы/Current_mitter_hw/inc/hal/hal_tim6.h",
+		"/home/saurex/Документы/Current_mitter_hw/docs/kernel.md",
+		"/home/saurex/Документы/Current_mitter_hw/src/hal/makefile",
+		"/home/saurex/Документы/Current_mitter_hw/src/hal/hal_uart_dbg.c",
+		"/home/saurex/Документы/Current_mitter_hw/inc/hal/hal.h",
+		"/home/saurex/Документы/Current_mitter_hw/src/hal/hal.c",
+		"/home/saurex/Документы/Neos/docs/kernel.md",
+		"/home/saurex/Документы/Current_mitter_hw/inc/hal/hal_uart_dbg.h",
+		"/home/saurex/Документы/Current_mitter_hw/src/kernel/common_conf.h",
+		"/home/saurex/Документы/Current_mitter_hw/inc/hal/hal_configuration.h",
+		"/home/saurex/Документы/Neos/inc/kernel/kernel_panic.h",
+		"/home/saurex/Документы/Neos/inc/kernel/kcodes.h",
+		"/home/saurex/Документы/Neos/inc/kernel/kernel.h",
+		"/home/saurex/Документы/Neos/src/kernel/core_unit_tests.c",
+		"/home/saurex/Документы/Neos/src/hal/hal_lse.c",
+		"/home/saurex/Документы/Neos/makefile",
+		"/home/saurex/Документы/Neos/src/kernel/makefile",
+		"/home/saurex/Документы/Neos/inc/kernel/kernel_configuration.h",
+		"/home/saurex/Документы/Neos/src/kernel/main.c",
+		"/home/saurex/Документы/Neos/inc/kernel/core_unit_tests.h",
+		"/home/saurex/Документы/Neos/src/kernel/core_event_manager.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_event_handlers.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_task_manager.c",
+		"/home/saurex/Документы/Neos/src/hal/hal_idle.c",
+		"/home/saurex/Документы/Neos/src/kernel/kernel_panic.c",
+		"/home/saurex/.vmware/preferences",
+		"/run/user/1000/gvfs/smb-share:server=192.168.17.168,share=storage/Admin/common_ssh_access/access_to_server_via_ssh.md",
+		"/etc/apt/sources.list",
+		"/home/saurex/.gdbinit",
+		"/home/saurex/Документы/Neos/src/app/sys",
+		"/home/saurex/Документы/Neos/src/hal/hal.c",
+		"/home/saurex/Документы/Neos/inc/kernel/core_event_manager.h",
+		"/home/saurex/Документы/Neos/src/kernel/core_scheulder.c",
+		"/home/saurex/Документы/Neos/src/hal/hal_sysclock.c",
+		"/home/saurex/Документы/Neos/inc/kernel/kevents.h",
+		"/home/saurex/Документы/Neos/inc/kernel/core_event_handlers.h",
+		"/home/saurex/Документы/Neos/inc/hal/hal_sysclock.h",
+		"/home/saurex/Документы/Neos/inc/hal/hal_lse.h",
+		"/home/saurex/Документы/Neos/inc/hal/hal_idle.h",
+		"/home/saurex/Документы/Neos/inc/hal/hal.h",
+		"/home/saurex/Документы/Neos/inc/kernel/event_handlers_list.h",
+		"/home/saurex/Документы/Neos/inc/kernel/core_task_manager.h",
+		"/home/saurex/Документы/Neos/inc/kernel/core_listeners.h",
+		"/home/saurex/Документы/Neos/inc/kernel/core_idle.h",
+		"/home/saurex/Документы/Neos/inc/hal/hal_configuration.h",
+		"/home/saurex/Документы/Neos/src/hal/makefile",
+		"/home/saurex/Документы/Neos/src/kernel/core_systick.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_system.c",
+		"/home/saurex/Документы/Neos/inc/hal/hal.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_idle.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_modules.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_listeners.c",
+		"/run/user/1000/gvfs/smb-share",
+		"/home/saurex/Документы/Neos/.gitignore",
+		"/home/saurex/Документы/Neos/cmsis/core_cm0.h",
+		"/home/saurex/Документы/Neos/stdperiph/inc/stm32l1xx_rcc.h",
+		"/home/saurex/Документы/Neos/stdperiph/src/stm32l1xx_rcc.c",
+		"/home/saurex/Документы/Neos/cmsis/stm32l1xx.h",
+		"/home/saurex/Документы/Neos/cmsis/system_stm32l1xx.c",
+		"/home/saurex/Документы/Neos/cmsis/makefile",
+		"/home/saurex/Документы/Neos/stdperiph/src/makefile",
+		"/home/saurex/Документы/Neos/src/kernel/tiny_printf.cxx",
+		"/home/saurex/Документы/Neos/inc/hal/makefile",
+		"/home/saurex/Документы/Neos/src/kernel/core_post_event.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_system_start.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_scheulder_loop.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_modules_registration.c",
+		"/home/saurex/Документы/Neos/src/kernel/core_init.c",
+		"/home/saurex/Документы/Neos/startup/makefile",
+		"/home/saurex/Документы/Neos/makefile.qq",
+		"/home/saurex/Документы/Neos/stdperiph/src/stm32l1xx_lcd.c",
+		"/home/saurex/Документы/Neos/stdperiph/src/misc.c",
+		"/home/saurex/Документы/Neos/stdperiph/src/stm32l1xx_adc.c",
+		"/home/saurex/Документы/Neos/src/kernel/sss.c",
+		"/home/saurex/Документы/Neos/stdperiph/inc/misc.h",
+		"/home/saurex/Документы/Neos/ld-scripts/stm32_flash.ld"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"utcnow",
+			"print",
+			"GPIO_Mode_AN",
+			"invalidLicense",
+			"license",
+			"lecen",
+			"none",
+			"return",
+			"licen",
+			"period",
+			"ext",
+			"ADC_external_trigger_sources_for_regular_channels_conversion",
+			"ADC_InitStructure",
+			"start",
+			"ADC_ExternalTrigConv_None",
+			"trig",
+			"ADCCLK",
+			"RCC_ADCCLKConfig",
+			"RCC_PCLK2_Div6",
+			"                                     ",
+			"void",
+			"core_system_start",
+			"-O0",
+			".o",
+			".c",
+			"MEMORY\n{\n  rom : org = 0x08000000, l = 64K\n  ram : org = 0x20000000, l = 20K\n}\n\nSECTIONS\n{\n  .text : {\n    *(.text);\n  } > rom\n\n  .data : {\n    *(.data);\n  } > ram AT>rom = 0xff\n}",
+			">>>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"now",
+			"none",
+			"core_set_sysclock",
+			"-O2",
+			".o = -O0",
+			".o",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "docs/postgres.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1104,
+								1104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "db_aver_1min.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1243,
+								1243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "db_aver_10min.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1020.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "db_datastrip.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "data_analysis.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 104.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "cmservice.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

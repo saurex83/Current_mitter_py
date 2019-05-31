@@ -1,0 +1,297 @@
+2019-05-31 19:15:35,857 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:15:37,064 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR удалено 0 записей
+2019-05-31 19:15:37,073 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR1MIN удалено 0 записей
+2019-05-31 19:15:37,081 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR10MIN удалено 0 записей
+2019-05-31 19:15:37,529 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:15:37,542 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:15:38,879 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:15:40,354 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:15:41,579 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:15:41,593 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:15:42,927 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:15:44,281 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:15:44,294 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:15:45,626 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:15:46,976 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:15:48,325 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:15:49,684 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:15:51,023 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:15:51,974 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:15:52,372 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:15:53,721 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:15:55,070 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:15:56,419 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:15:57,768 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:15:59,117 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:00,466 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:01,815 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:03,164 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:04,033 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:04,514 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:05,546 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:05,554 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:05,863 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:07,212 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:08,561 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:08,748 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:08,774 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:08,781 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:08,841 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:08,845 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:08,847 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:08,887 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:08,905 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:08,911 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:08,932 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:08,957 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:08,969 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:09,000 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:09,002 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:09,043 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:09,910 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:09,923 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:11,259 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:11,272 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:12,609 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:12,621 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:13,958 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:13,971 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:15,309 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:15,321 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:16,658 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:16,670 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:18,008 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:18,020 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:19,357 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:19,369 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:20,707 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:20,720 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:22,056 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:22,069 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:23,406 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:23,418 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:24,755 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:24,767 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:26,104 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:26,117 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:27,453 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:27,465 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:28,802 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:28,814 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:30,151 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:30,164 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:31,502 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:31,517 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:32,850 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:32,869 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:34,199 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:34,212 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:35,549 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:35,562 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:36,898 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:36,911 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:37,104 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR удалено 0 записей
+2019-05-31 19:16:37,113 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR1MIN удалено 0 записей
+2019-05-31 19:16:37,120 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR10MIN удалено 0 записей
+2019-05-31 19:16:38,248 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:38,260 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:39,601 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:39,613 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:40,947 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:40,959 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:42,296 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:42,309 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:43,646 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:43,658 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:44,995 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:45,008 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:46,344 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:46,357 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:47,694 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:47,706 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:49,043 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:49,055 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:50,391 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:50,404 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:51,741 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:51,753 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:53,090 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:53,102 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:54,452 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:54,478 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:55,788 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:55,801 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:16:57,138 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:16:57,150 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:16:58,487 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:16:58,500 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:16:59,836 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:16:59,849 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:01,185 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:01,198 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:02,535 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:03,015 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:03,884 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:04,347 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:05,234 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:05,247 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:06,584 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:06,596 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:07,933 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:07,946 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:09,283 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:10,104 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:10,633 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:10,646 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:11,982 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:11,998 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:13,334 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:13,347 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:14,693 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:14,714 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:16,031 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:16,044 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:17,381 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:24,033 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:25,482 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:26,831 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:30,614 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:30,632 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:32,230 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:32,243 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:33,580 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:33,593 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:34,930 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:34,943 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:36,280 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:36,292 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:37,181 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR удалено 0 записей
+2019-05-31 19:17:37,190 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR1MIN удалено 0 записей
+2019-05-31 19:17:37,197 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR10MIN удалено 0 записей
+2019-05-31 19:17:37,630 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:37,642 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:38,979 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:38,992 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:40,329 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:40,341 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:41,679 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:41,691 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:43,028 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:43,041 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:44,378 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:44,390 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:45,727 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:45,740 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:47,077 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:47,090 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:48,427 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:49,212 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:49,776 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:49,789 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:51,127 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:51,139 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:52,476 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:52,489 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:53,826 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:53,839 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:55,176 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:55,189 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:17:56,526 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:17:56,538 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:17:57,876 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:17:57,888 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:17:59,225 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:17:59,238 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:00,574 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:00,587 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:01,924 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:01,938 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:03,273 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:03,285 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:04,634 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:04,658 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:05,973 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:05,990 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:07,320 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:07,333 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:08,670 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:08,682 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:10,019 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:10,032 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:11,368 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:11,381 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:12,717 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:12,730 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:14,066 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:14,079 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:15,426 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:15,439 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:16,764 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:16,776 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:18,113 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:18,126 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:19,463 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:19,476 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:20,813 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:20,825 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:22,163 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:22,175 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:23,513 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:23,526 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:24,863 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:24,875 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:26,213 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:26,225 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:27,563 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:27,576 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:28,913 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:28,925 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:30,263 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:30,275 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:31,613 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:31,626 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:32,963 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:32,976 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:34,313 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:34,326 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:35,662 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:35,675 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:37,019 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:37,035 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:37,224 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR удалено 0 записей
+2019-05-31 19:18:37,238 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR1MIN удалено 0 записей
+2019-05-31 19:18:37,250 - mitter.db_datastrip - WARNING - Из таблицы AVERCUR10MIN удалено 0 записей
+2019-05-31 19:18:38,362 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:38,375 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:39,713 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:39,726 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:41,063 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:41,075 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:42,413 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:42,425 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:43,763 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:43,775 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:45,113 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:45,125 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:46,462 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:46,475 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:47,813 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:47,826 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:49,162 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:49,175 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:50,512 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:50,525 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:51,862 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:51,875 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:53,213 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:53,225 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:54,562 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:54,575 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:55,913 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:55,925 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-05-31 19:18:57,263 - mitter.data_harvester - INFO - Принят пакет 1
+2019-05-31 19:18:57,276 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-05-31 19:18:58,612 - mitter.data_harvester - INFO - Принят пакет 2
+2019-05-31 19:18:58,625 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-05-31 19:18:59,963 - mitter.data_harvester - INFO - Принят пакет 0
+2019-05-31 19:18:59,976 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен

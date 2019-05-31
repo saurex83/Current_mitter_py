@@ -1,0 +1,28 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides: dsa
+# Required-Start: $remote_fs $syslog
+# Required-Stop: $remote_fs $syslog
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: DSA + DGLux5 Server
+# Description: This file starts and stops DGLux5 server
+#
+### END INIT INFO
+
+case "$1" in
+ start)
+   /opt/dsa/dglux-server/bin/daemon.sh start
+   ;;
+ stop)
+   /opt/dsa/dglux-server/bin/daemon.sh stop
+   sleep 1
+   ;;
+ restart)
+   /opt/dsa/dglux-server/bin/daemon.sh restart
+   ;;
+ *)
+   echo "Usage: dsa {start|stop|restart}" >&2
+   exit 3
+   ;;
+esac
