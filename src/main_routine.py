@@ -14,6 +14,7 @@ from frame import RawFrame as RF
 from db_aver_1min import DataAverage1min
 from db_aver_10min import DataAverage10min
 from db_datastrip import DBStriper
+from db_journal_lost import JournalCurrLost
 from queue import Queue 
 import threading
 import logging
@@ -38,6 +39,7 @@ thread_DA3 = DataAnalysis(q3)
 thread_AVER1MIN = DataAverage1min() 
 thread_AVER10MIN = DataAverage10min() 
 thread_DBStrip = DBStriper()
+thread_JCL = JournalCurrLost()
 
 THREAD_CHECK_TIMEOUT = 1 # Интервал контроля работоспособности потоков в сек.
 
@@ -58,6 +60,7 @@ def _main_thread_loop():
 	global thread_AVER1MIN
 	global thread_AVER10MIN
 	global thread_DBStrip
+	global thread_JCL
 	global q1
 	global q2
 	global q3
@@ -69,37 +72,50 @@ def _main_thread_loop():
 	thread_AVER1MIN.start()
 	thread_AVER10MIN.start()
 	thread_DBStrip.start()
+	thread_JCL.start()
 
 	# Перезапускаем потоки по мере их падения
 	while True:
 		if thread_DH.isAlive() == False:
 			thread_DH = DataHarvest(q1, q2, q3)
 			thread_DH.start()
+
 			logger.warning('Поток сборщика данных перезапущен.')
 		if thread_DA1.isAlive() == False:
 			thread_DA1 = DataAnalysis(q1)
 			thread_DA1.start()
+
 			logger.warning('Поток анализа данных канала 1 перезапущен.')
 		if thread_DA2.isAlive() == False:
 			thread_DA2 = DataAnalysis(q2)
 			thread_DA2.start()
+
 			logger.warning('Поток анализа данных канала 2 перезапущен.')
 		if thread_DA3.isAlive() == False:
 			thread_DA3 = DataAnalysis(q3)
 			thread_DA3.start()
 			logger.warning('Поток анализа данных канала 3 перезапущен.')
+
 		if thread_AVER1MIN.isAlive() == False:
 			thread_AVER1MIN = DataAverage1min()
 			thread_AVER1MIN.start()
 			logger.warning('Поток усреднения данных за 1 минуту перезапущен.')
+
 		if thread_AVER10MIN.isAlive() == False:
-			thread_AVER10MIN = DataAverage1min()
+			thread_AVER10MIN = DataAverage10min()
 			thread_AVER10MIN.start()
 			logger.warning('Поток усреднения данных за 10 минуту перезапущен.')
+
 		if thread_DBStrip.isAlive() == False:
-			thread_DBStrip = DataAverage1min()
+			thread_DBStrip = DBStriper()
 			thread_DBStrip.start()
 			logger.warning('Поток удаления старых данных перезапущен.')
+
+		if thread_JCL.isAlive() == False:
+			thread_JCL = JournalCurrLost()
+			thread_JCL.start()
+			logger.warning('Поток удаления старых данных перезапущен.')
+
 		sleep(THREAD_CHECK_TIMEOUT)
 
 def _logger_config():

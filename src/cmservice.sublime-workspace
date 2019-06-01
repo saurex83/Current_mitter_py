@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"er",
+				"errleveltext"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
 				"_is",
 				"_isPid_Locked"
 			],
@@ -14,10 +22,6 @@
 			[
 				"p",
 				"print"
-			],
-			[
-				"se",
-				"seconds"
 			],
 			[
 				"s",
@@ -368,46 +372,28 @@
 	"buffers":
 	[
 		{
-			"file": "docs/postgres.md",
+			"file": "db_journal_lost.py",
 			"settings":
 			{
-				"buffer_size": 1105,
+				"buffer_size": 3567,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "db_aver_1min.py",
+			"file": "main_routine.py",
 			"settings":
 			{
-				"buffer_size": 2201,
+				"buffer_size": 4026,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "db_aver_10min.py",
+			"file": "mitter.log",
 			"settings":
 			{
-				"buffer_size": 2243,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db_datastrip.py",
-			"settings":
-			{
-				"buffer_size": 3149,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "data_analysis.py",
-			"settings":
-			{
-				"buffer_size": 3135,
+				"buffer_size": 16856,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -548,15 +534,18 @@
 	"expanded_folders":
 	[
 		"/home/saurex/Projects/cmservice/cmservice",
-		"/home/saurex/Projects/cmservice/cmservice/src"
+		"/home/saurex/Projects/cmservice/cmservice/src",
+		"/home/saurex/Projects/cmservice/cmservice/src/docs"
 	],
 	"file_history":
 	[
 		"/home/saurex/Projects/cmservice/cmservice/src/mitter.log",
 		"/home/saurex/Projects/cmservice/cmservice/src/mitter.log.1",
+		"/home/saurex/Projects/cmservice/cmservice/src/data_analysis.py",
 		"/home/saurex/Projects/cmservice/cmservice/src/db_datastrip.py",
-		"/home/saurex/Projects/cmservice/cmservice/src/db_aver_1min.py",
 		"/home/saurex/Projects/cmservice/cmservice/src/db_aver_10min.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/db_aver_1min.py",
+		"/home/saurex/Projects/cmservice/cmservice/src/docs/postgres.md",
 		"/home/saurex/Projects/cmservice/cmservice/src/data_harvester.py",
 		"/home/saurex/Projects/cmservice/cmservice/src/docs/project_struct.md",
 		"/home/saurex/Projects/cmservice/cmservice/src/main_routine.py",
@@ -564,12 +553,10 @@
 		"/run/user/1000/gvfs/smb-share:server=192.168.17.168,share=storage/Developments/Neocore/dgLux/Installer/readme.md",
 		"/home/saurex/Projects/cmservice/cmservice/daemon.sh",
 		"/home/saurex/Projects/cmservice/cmservice/src/daemon.sh",
-		"/home/saurex/Projects/cmservice/cmservice/src/data_analysis.py",
 		"/home/saurex/Projects/cmservice/cmservice/src/frame.py",
 		"/home/saurex/Projects/cmservice/cmservice/src/harvester_test.py",
 		"/home/saurex/Projects/cmservice/cmservice/src/for_debug.py",
 		"/home/saurex/Projects/cmservice/cmservice/src/dbdatastrip.py",
-		"/home/saurex/Projects/cmservice/cmservice/src/docs/postgres.md",
 		"/home/saurex/Projects/cmservice/cmservice/src/docs/rpi.md",
 		"/home/saurex/Projects/cmservice/cmservice/src/docs/dbdatastrip.py",
 		"/home/saurex/Projects/Current_mitter_hw/stdperiph/src/stm32l1xx_adc.c",
@@ -748,151 +735,99 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "docs/postgres.md",
+					"file": "db_journal_lost.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1105,
+						"buffer_size": 3567,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1104,
-								1104
+								3530,
+								3530
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"SL.21.region_keys":
+							[
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 357.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "db_aver_1min.py",
+					"file": "main_routine.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2201,
+						"buffer_size": 4026,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1243,
-								1243
+								3814,
+								3814
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 663.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "db_aver_10min.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2243,
-						"regions":
-						{
-						},
-						"selection":
-						[
+							"SL.23.region_keys":
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
+							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1020.0,
+						"translation.y": 1071.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "db_datastrip.py",
+					"buffer": 2,
+					"file": "mitter.log",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3149,
+						"buffer_size": 16856,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								699,
-								699
+								2468,
+								2468
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 3468.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "data_analysis.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								610,
-								610
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]

@@ -1,0 +1,153 @@
+2019-06-01 18:15:17,058 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:17,073 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:18,408 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:18,420 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:18,552 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-01 18:15:18,578 - mitter.db_journal_lost - INFO - 0.0244751366382349
+2019-06-01 18:15:18,579 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:18,579 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-01 18:15:18,605 - mitter.db_journal_lost - INFO - 0.00558414619938645
+2019-06-01 18:15:18,605 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:18,606 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-01 18:15:18,630 - mitter.db_journal_lost - INFO - 19.1695230299839
+2019-06-01 18:15:18,631 - mitter.db_journal_lost - INFO - Ток в норме
+2019-06-01 18:15:19,758 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:19,771 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:21,107 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:21,120 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:22,457 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:22,470 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:23,637 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-01 18:15:23,664 - mitter.db_journal_lost - INFO - 0.0242014900103457
+2019-06-01 18:15:23,665 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:23,666 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-01 18:15:23,692 - mitter.db_journal_lost - INFO - 0.00582799993577275
+2019-06-01 18:15:23,694 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:23,694 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-01 18:15:23,724 - mitter.db_journal_lost - INFO - 19.1946666533806
+2019-06-01 18:15:23,726 - mitter.db_journal_lost - INFO - Ток в норме
+2019-06-01 18:15:23,807 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:23,820 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:25,157 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:25,170 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:26,507 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:26,520 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:27,857 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:27,873 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:28,732 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-01 18:15:28,779 - mitter.db_journal_lost - INFO - 0.0250884376607483
+2019-06-01 18:15:28,780 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:28,781 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-01 18:15:28,824 - mitter.db_journal_lost - INFO - 0.00574116594917771
+2019-06-01 18:15:28,825 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:28,825 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-01 18:15:28,851 - mitter.db_journal_lost - INFO - 19.1925665091638
+2019-06-01 18:15:28,852 - mitter.db_journal_lost - INFO - Ток в норме
+2019-06-01 18:15:29,207 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:29,220 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:30,557 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:30,570 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:31,908 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:31,920 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:33,257 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:33,269 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:33,854 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-01 18:15:33,901 - mitter.db_journal_lost - INFO - 0.0247569510541607
+2019-06-01 18:15:33,903 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:33,904 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-01 18:15:33,954 - mitter.db_journal_lost - INFO - 0.00576007977960388
+2019-06-01 18:15:33,955 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:33,955 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-01 18:15:33,981 - mitter.db_journal_lost - INFO - 19.2008501552242
+2019-06-01 18:15:33,982 - mitter.db_journal_lost - INFO - Ток в норме
+2019-06-01 18:15:34,607 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:34,620 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:35,957 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:35,970 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:37,307 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:37,320 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:38,669 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:38,687 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:38,988 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-01 18:15:39,013 - mitter.db_journal_lost - INFO - 0.0245723782713999
+2019-06-01 18:15:39,014 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:39,015 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-01 18:15:39,040 - mitter.db_journal_lost - INFO - 0.00551870937163295
+2019-06-01 18:15:39,041 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:39,041 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-01 18:15:39,067 - mitter.db_journal_lost - INFO - 19.2048447025196
+2019-06-01 18:15:39,068 - mitter.db_journal_lost - INFO - Ток в норме
+2019-06-01 18:15:40,007 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:40,020 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:41,357 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:41,370 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:42,708 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:42,721 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:44,058 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:44,071 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:44,077 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-01 18:15:44,104 - mitter.db_journal_lost - INFO - 0.0239744711034841
+2019-06-01 18:15:44,106 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:44,106 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-01 18:15:44,132 - mitter.db_journal_lost - INFO - 0.00573435063479401
+2019-06-01 18:15:44,132 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:44,133 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-01 18:15:44,158 - mitter.db_journal_lost - INFO - 19.2037823698607
+2019-06-01 18:15:44,159 - mitter.db_journal_lost - INFO - Ток в норме
+2019-06-01 18:15:45,408 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:45,421 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:46,759 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:46,774 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:48,109 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:48,122 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:49,161 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-01 18:15:49,189 - mitter.db_journal_lost - INFO - 0.02505459750597
+2019-06-01 18:15:49,190 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:49,190 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-01 18:15:49,219 - mitter.db_journal_lost - INFO - 0.00569073393647549
+2019-06-01 18:15:49,220 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:49,220 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-01 18:15:49,248 - mitter.db_journal_lost - INFO - 19.2075613531366
+2019-06-01 18:15:49,249 - mitter.db_journal_lost - INFO - Ток в норме
+2019-06-01 18:15:49,459 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:49,472 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:50,809 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:50,822 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:52,160 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:53,016 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:53,510 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:53,523 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:54,251 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-01 18:15:54,297 - mitter.db_journal_lost - INFO - 0.0258362225100631
+2019-06-01 18:15:54,299 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:54,300 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-01 18:15:54,346 - mitter.db_journal_lost - INFO - 0.0061551115873862
+2019-06-01 18:15:54,347 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:54,348 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-01 18:15:54,382 - mitter.db_journal_lost - INFO - 19.210948671865
+2019-06-01 18:15:54,383 - mitter.db_journal_lost - INFO - Ток в норме
+2019-06-01 18:15:54,861 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:54,874 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:56,212 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:15:56,225 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:15:57,562 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:15:58,066 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:15:58,912 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:15:58,926 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:15:59,384 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-01 18:15:59,424 - mitter.db_journal_lost - INFO - 0.0258760332048005
+2019-06-01 18:15:59,425 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:59,426 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-01 18:15:59,474 - mitter.db_journal_lost - INFO - 0.00617832703095079
+2019-06-01 18:15:59,476 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-01 18:15:59,477 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-01 18:15:59,513 - mitter.db_journal_lost - INFO - 19.2137686076947
+2019-06-01 18:15:59,514 - mitter.db_journal_lost - INFO - Ток в норме
+2019-06-01 18:16:00,275 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:16:00,301 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
+2019-06-01 18:16:01,613 - mitter.data_harvester - INFO - Принят пакет 0
+2019-06-01 18:16:01,626 - mitter.data_analysis - INFO - Анализ данных канала 0 произведен
+2019-06-01 18:16:02,963 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-01 18:16:03,329 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-01 18:16:04,314 - mitter.data_harvester - INFO - Принят пакет 2
+2019-06-01 18:16:04,327 - mitter.data_analysis - INFO - Анализ данных канала 2 произведен
