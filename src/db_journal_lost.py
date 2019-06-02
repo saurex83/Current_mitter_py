@@ -40,7 +40,7 @@ class JournalCurrLost(threading.Thread):
 				self._check_current(0)
 				self._check_current(1)
 				self._check_current(2)
-				time.sleep(5)
+				time.sleep(1)
 
 		except Exception:
 			logger.exception("Исключение в потоке")
@@ -89,10 +89,17 @@ class JournalCurrLost(threading.Thread):
 
 	def _get_aver_db(self, ch):
 		session = DB_Session()
+		# Не будем делать усреднение по большому отрезку времении
+		# Хочу что бы реакция была быстрая на пропадание тока
 		current_time = datetime.datetime.now()
-		last_time = current_time - datetime.timedelta(seconds=15)
+		last_time = current_time - datetime.timedelta(seconds=5)
 		aver = session.query(func.avg(AverageCurr.value)).filter(
 			 AverageCurr.time > last_time).filter(AverageCurr.ch == ch).all()
+
+
+		#select * from "AVERCUR" ORDER BY id DESC LIMIT 1;
+
+
 		session.close()
 		return aver[0][0]
 
