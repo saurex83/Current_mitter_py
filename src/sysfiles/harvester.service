@@ -1,0 +1,20 @@
+[Unit]
+Description=Data harvester
+After=syslog.target
+After=network.target
+After=nginx.service
+
+[Service]
+Type=idle
+ExecStart=/opt/Current_mitter_py/bin/python3  /opt/Current_mitter_py/src/main.py
+WorkingDirectory=/opt/Current_mitter_py/
+
+Restart=always
+
+User=saurex83
+Group=saurex83
+
+TimeoutSec=300
+
+[Install]
+WantedBy=multi-user.target 

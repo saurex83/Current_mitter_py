@@ -1,0 +1,188 @@
+2019-06-02 16:07:56,107 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-02 16:07:56,169 - mitter.db_journal_lost - INFO - 0.0161965332047421
+2019-06-02 16:07:56,171 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-02 16:07:56,172 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-02 16:07:56,205 - mitter.db_journal_lost - INFO - 0.00604882812560391
+2019-06-02 16:07:56,206 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-02 16:07:56,206 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-02 16:07:56,238 - mitter.db_journal_lost - INFO - 0.00776000976639974
+2019-06-02 16:07:56,239 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-02 16:07:56,469 - mitter.data_harvester - INFO - Принят пакет 1
+2019-06-02 16:07:56,482 - mitter.data_analysis - INFO - Анализ данных канала 1 произведен
+2019-06-02 16:07:57,241 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 0
+2019-06-02 16:07:57,302 - mitter.db_journal_lost - INFO - 0.0161965332047421
+2019-06-02 16:07:57,304 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-02 16:07:57,305 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 1
+2019-06-02 16:07:57,370 - mitter.db_journal_lost - INFO - 0.00562331928170829
+2019-06-02 16:07:57,371 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-06-02 16:07:57,372 - mitter.db_journal_lost - INFO - Проверка наличия тока канала - 2
+2019-06-02 16:07:57,406 - mitter.db_journal_lost - INFO - 0.00776000976639974
+2019-06-02 16:07:57,407 - mitter.db_journal_lost - INFO - Ток ниже порога
+2019-07-22 11:37:07,131 - mitter - INFO - База данных существует.
+2019-07-22 11:37:07,134 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 45, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 64, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 11:38:45,548 - mitter - INFO - База данных существует.
+2019-07-22 11:38:45,551 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 45, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 64, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 11:39:38,639 - mitter - INFO - База данных существует.
+2019-07-22 11:39:38,642 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 45, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 64, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 11:39:55,049 - mitter - INFO - База данных существует.
+2019-07-22 11:39:55,052 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 45, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 64, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 11:44:19,602 - mitter - INFO - База данных существует.
+2019-07-22 11:44:19,605 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 11:44:50,067 - mitter - INFO - База данных существует.
+2019-07-22 11:44:50,069 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 11:45:17,859 - mitter - INFO - База данных существует.
+2019-07-22 11:45:17,862 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:01:55,224 - mitter - INFO - База данных существует.
+2019-07-22 12:01:55,226 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:02:21,803 - mitter - INFO - База данных существует.
+2019-07-22 12:02:21,805 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:06:43,664 - mitter - INFO - База данных существует.
+2019-07-22 12:06:43,666 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:09:10,335 - mitter - INFO - База данных существует.
+2019-07-22 12:09:10,337 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:09:56,508 - mitter - INFO - База данных существует.
+2019-07-22 12:09:56,510 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:10:11,674 - mitter - INFO - База данных существует.
+2019-07-22 12:10:11,676 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:10:28,807 - mitter - INFO - База данных существует.
+2019-07-22 12:10:28,810 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:10:48,354 - mitter - INFO - База данных существует.
+2019-07-22 12:10:48,356 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:11:01,077 - mitter - INFO - База данных существует.
+2019-07-22 12:11:01,079 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:12:12,036 - mitter - INFO - База данных существует.
+2019-07-22 12:12:12,038 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:12:27,850 - mitter - INFO - База данных существует.
+2019-07-22 12:12:27,852 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:13:00,752 - mitter - INFO - База данных существует.
+2019-07-22 12:13:00,755 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:14:11,227 - mitter - INFO - База данных существует.
+2019-07-22 12:14:11,229 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined
+2019-07-22 12:15:03,468 - mitter - INFO - База данных существует.
+2019-07-22 12:15:03,470 - mitter - ERROR - Исключение в главном цикле программы
+Traceback (most recent call last):
+  File "/opt/Current_mitter_py/src/main_routine.py", line 42, in MainRoutine
+    _main_thread_loop()
+  File "/opt/Current_mitter_py/src/main_routine.py", line 56, in _main_thread_loop
+    thread_AVER1MIN.start()
+NameError: name 'thread_AVER1MIN' is not defined

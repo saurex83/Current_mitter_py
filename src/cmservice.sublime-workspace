@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"ch",
+				"channel"
+			],
+			[
+				"MA",
+				"MAX_CURR_CH1"
+			],
+			[
+				"C",
+				"CNF"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
 				"er",
 				"errleveltext"
 			],
@@ -328,10 +344,6 @@
 				"startup_stm32l1xx_md.s\t(makefile)"
 			],
 			[
-				"MA",
-				"makefile"
-			],
-			[
 				"mi",
 				"misc.h\t(misc.c)"
 			],
@@ -372,10 +384,10 @@
 	"buffers":
 	[
 		{
-			"file": "db_journal_lost.py",
+			"file": "data_analysis.py",
 			"settings":
 			{
-				"buffer_size": 3567,
+				"buffer_size": 2351,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -384,16 +396,25 @@
 			"file": "main_routine.py",
 			"settings":
 			{
-				"buffer_size": 4026,
+				"buffer_size": 2774,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mitter.log",
+			"file": "db_journal.py",
 			"settings":
 			{
-				"buffer_size": 16856,
+				"buffer_size": 5386,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "param.py",
+			"settings":
+			{
+				"buffer_size": 1242,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -533,12 +554,25 @@
 	},
 	"expanded_folders":
 	[
-		"/home/saurex/Projects/cmservice/cmservice",
-		"/home/saurex/Projects/cmservice/cmservice/src",
-		"/home/saurex/Projects/cmservice/cmservice/src/docs"
+		"/home/saurex/Projects/cmservice/src",
+		"/home/saurex/Projects/cmservice/src/docs",
+		"/home/saurex/Projects/cmservice/src/sysfiles"
 	],
 	"file_history":
 	[
+		"/home/saurex/Projects/cmservice/src/sysfiles/harvester.service",
+		"/home/saurex/Projects/cmservice/src/data_harvester.py",
+		"/home/saurex/Projects/cmservice/src/xxxxxxxxxxxxx.py",
+		"/home/saurex/Projects/cmservice/src/db_journal.py",
+		"/home/saurex/Projects/cmservice/src/main_routine.py",
+		"/home/saurex/Projects/cmservice/src/db_tables.py",
+		"/home/saurex/Projects/cmservice/src/sysfiles/db_tabels.py",
+		"/home/saurex/Projects/cmservice/src/docs/postgres.md",
+		"/home/saurex/Projects/cmservice/src/data_analysis.py",
+		"/home/saurex/Projects/cmservice/src/db_datastrip.py",
+		"/home/saurex/Projects/cmservice/src/frame.py",
+		"/home/saurex/Projects/cmservice/src/mitter.log",
+		"/home/saurex/Projects/cmservice/src/main.py",
 		"/home/saurex/Projects/cmservice/cmservice/src/mitter.log",
 		"/home/saurex/Projects/cmservice/cmservice/src/mitter.log.1",
 		"/home/saurex/Projects/cmservice/cmservice/src/data_analysis.py",
@@ -653,24 +687,11 @@
 		"/home/saurex/Документы/Neos/cmsis/makefile",
 		"/home/saurex/Документы/Neos/stdperiph/src/makefile",
 		"/home/saurex/Документы/Neos/src/kernel/tiny_printf.cxx",
-		"/home/saurex/Документы/Neos/inc/hal/makefile",
-		"/home/saurex/Документы/Neos/src/kernel/core_post_event.c",
-		"/home/saurex/Документы/Neos/src/kernel/core_system_start.c",
-		"/home/saurex/Документы/Neos/src/kernel/core_scheulder_loop.c",
-		"/home/saurex/Документы/Neos/src/kernel/core_modules_registration.c",
-		"/home/saurex/Документы/Neos/src/kernel/core_init.c",
-		"/home/saurex/Документы/Neos/startup/makefile",
-		"/home/saurex/Документы/Neos/makefile.qq",
-		"/home/saurex/Документы/Neos/stdperiph/src/stm32l1xx_lcd.c",
-		"/home/saurex/Документы/Neos/stdperiph/src/misc.c",
-		"/home/saurex/Документы/Neos/stdperiph/src/stm32l1xx_adc.c",
-		"/home/saurex/Документы/Neos/src/kernel/sss.c",
-		"/home/saurex/Документы/Neos/stdperiph/inc/misc.h",
-		"/home/saurex/Документы/Neos/ld-scripts/stm32_flash.ld"
+		"/home/saurex/Документы/Neos/inc/hal/makefile"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -684,6 +705,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"MAX_TIME_CH3",
+			"thread_J",
+			"\n\t",
+			"thread_J",
+			"tmp",
+			"DB_Base",
+			"AVERCUR",
+			"PACKET_INTERVAL",
+			"_wait_silence",
 			"utcnow",
 			"print",
 			"GPIO_Mode_AN",
@@ -735,39 +765,39 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "db_journal_lost.py",
+					"file": "data_analysis.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3567,
+						"buffer_size": 2351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3530,
-								3530
+								1070,
+								1070
 							]
 						],
 						"settings":
 						{
-							"SL.21.region_keys":
+							"SL.125.region_keys":
 							[
 							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 357.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -776,27 +806,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4026,
+						"buffer_size": 2774,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3814,
-								3814
+								2027,
+								2027
 							]
 						],
 						"settings":
 						{
-							"SL.23.region_keys":
-							[
-							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1071.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -804,30 +831,65 @@
 				},
 				{
 					"buffer": 2,
-					"file": "mitter.log",
+					"file": "db_journal.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16856,
+						"buffer_size": 5386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2468,
-								2468
+								3735,
+								3735
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"SL.134.region_keys":
+							[
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3468.0,
+						"translation.y": 2244.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "param.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								784,
+								784
+							]
+						],
+						"settings":
+						{
+							"SL.127.region_keys":
+							[
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

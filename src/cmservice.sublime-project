@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "/home/saurex/Projects/cmservice/cmservice"
+		},
+		{
+			"path": "."
 		}
 	]
 }

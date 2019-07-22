@@ -1,18 +1,18 @@
-# анализирует принятые данные, считает среднее и сует в базу
 
-# Первоначально я хотел сохранять осциллограммы тока в базу данных.
-# Это оказалось проблемно из-за скорость записии. 2000 элементов 
-# с использованием save_bulk вставлялися от 1.5 сек и с ростом нагрузки на БД
-# время увеличивалось. Теперь я сохраняю только среднии значения тока
 import sqlalchemy
 from sqlalchemy import Column, Integer, String, Float, create_engine, DateTime
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import create_engine
 from queue import Queue
 from frame import RawFrame as RF
 import threading
-import datetime
 import logging
+import datetime
+
+DB_Base = declarative_base()
+DB_Engine = create_engine("postgres://mitter:mitter@localhost/mitter")
+DB_Session = sessionmaker(bind = DB_Engine)
 
 logger = logging.getLogger("mitter.data_analysis")
 
@@ -20,21 +20,14 @@ CT_RATIO = 2500 # Соотношение витков токового тран�
 R_SENSE = 51 # Сопротивление нагрузочного резистора
 OPA_AMPL = 1.5 # Коэффициент усиления
 
-# Работа с базой данных
-DB_Base = declarative_base()
-DB_Engine = create_engine("postgres://mitter:mitter@localhost/mitter")
-DB_Session = sessionmaker(bind = DB_Engine)
-
 class DataAnalysis(threading.Thread):
 	""" """
 	def __init__(self, in_queue):
 		threading.Thread.__init__(self)
 		self.in_queue = in_queue
 		self.item = RF()
-		self.current_osc = list()
-		self.current_avr = 0
+		self.insert_data = list()
 		DB_Base.metadata.create_all(DB_Engine)
-
 
 	def run(self):
 		logger.info('Поток анализатора данных запущен')
@@ -42,66 +35,53 @@ class DataAnalysis(threading.Thread):
 			while True:
 				self.item = self.in_queue.get()
 
-				self._calc_current_osc()
-				self._calc_current_avr()
+				self._calc_current()
 
-				logger.info(
-					'Анализ данных канала %i произведен'%(self.item.channel)
-					)
-				# Вставка осцилограммы в БД очень время затратная операция
-				#self._put_osc_to_db()
-				self._put_avr_to_db()
+				#logger.debug('Анализ данных произведен')
+
+				self._put_to_db()
 				
 		except Exception:
 			logger.exception("Исключение в потоке")
 
-	def _put_avr_to_db(self):
+	def _put_to_db(self):
 		session = DB_Session()
-		AC = AverageCurr(self.current_avr, self.item.channel)
-		session.add(AC)
+		for i in self.insert_data:
+			tmp = Curdata(i['ch'], i['avr'], i['max'])
+			session.add(tmp)
 		session.commit()
 		session.close()
-
-	def _put_osc_to_db(self):
-		pass
 		
-	def _calc_current_avr(self):
-    	# На основе осциллограммы считаем средний ток
-    	# Так как интервал между отсчетами равномерный, я посчитаю среднее
-		current_avr = 0
-		for val in self.current_osc:
-			current_avr += val
-		current_avr /= len(self.current_osc)
-		self.current_avr = current_avr
-
-	def _calc_current_osc(self):
-    	# Создаем осциллограмму тока
-		self.current_osc= list()
-		time_step = self.item.period_us
-		for volt in self.item.float_data:
-			self.current_osc.append(self._conv(volt))
+	def _calc_current(self):
+		self.insert_data = list()
+		for i in self.item.chanel_data:
+			tmp = dict()
+			tmp['ch'] = i['ch']
+			tmp['avr'] = self._conv(i['avr'])
+			tmp['max'] = self._conv(i['max'])
+			self.insert_data.append(tmp)
 
 	def _conv(self, volt):
 		""" Преобразуем напряжение в ток """
-    	#TODO отсчечку по току I < 100 ма  = 0А
 		I = volt/(R_SENSE*OPA_AMPL)
 		I = I*CT_RATIO
 		return I
 
-class AverageCurr(DB_Base):
-	__tablename__ = 'AVERCUR'
+# Таблица измеренных данных
+class Curdata(DB_Base):
+	__tablename__ = 'CURDATA'
 	id = Column(Integer, primary_key = True)
 	time = Column(DateTime(timezone=True), default=datetime.datetime.now)
 	# DateTime(timezone=True), server_default=func.now()
 	# time = Column(DateTime, default=datetime.datetime.now)
 	ch = Column(Integer)
-	value = Column(Float)
+	c_avr = Column(Float)
+	c_max = Column(Float)
 
-	def __init__(self, value, ch):
-		self.value = value
+	def __init__(self, ch, cavr, cmax):
+		self.c_avr = cavr
+		self.c_max = cmax
 		self.ch = ch
-
-
 
 #start_time = TMM.time()    ####################################### DEBUG
 #print("--- %s seconds ---" % (TMM.time() - start_time)) ############

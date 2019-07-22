@@ -13,6 +13,12 @@ pip3 install psycopg2-binary
 pip3 install sqlalchemy-utils
 '''
 
+CREATE USER mitter WITH PASSWORD 'mitter';
+CREATE DATABASE mitter OWNER mitter;
+
+\dt просмотр списка таблиц
+SELECT * FROM "CURDATA";
+
 # Пользователи
 Используется пользователь mitter с паролем mitter.
 

@@ -34,15 +34,13 @@ class DBStriper(threading.Thread):
 		logger.info('Поток удаления старых данных запущен')
 		try:
 			while True:
-				self._strip_AVERCUR()
-				self._strip_AVERCUR1MIN()
-				self._strip_AVERCUR10MIN()
+				self._strip_CURDATA()
 				time.sleep(60)
 
 		except Exception:
 			logger.exception("Исключение в потоке")
 
-	def _strip_AVERCUR(self):
+	def _strip_CURDATA(self):
 		session = DB_Session()
 		current_time = datetime.datetime.now()
 		last_time = current_time - datetime.timedelta(seconds=STRIP_INTERVAL)
@@ -51,60 +49,13 @@ class DBStriper(threading.Thread):
 			AverageCurr.value).filter(
 		AverageCurr.time < last_time).delete()
 
-		logger.warning('Из таблицы AVERCUR удалено %i записей'%(deleted))
+		logger.warning('Из таблицы CURDATA удалено %i записей'%(deleted))
 		session.commit()
 		session.close()
 
-	def _strip_AVERCUR1MIN(self):
-		session = DB_Session()
-		current_time = datetime.datetime.now()
-		last_time = current_time - datetime.timedelta(seconds=STRIP_INTERVAL)
-		
-		deleted = session.query(
-			AverageCurr_1min.value).filter(
-		AverageCurr_1min.time < last_time).delete()
-		
-		logger.warning('Из таблицы AVERCUR1MIN удалено %i записей'%(deleted))
-		session.commit()
-		session.close()
-
-	def _strip_AVERCUR10MIN(self):
-		session = DB_Session()
-		current_time = datetime.datetime.now()
-		last_time = current_time - datetime.timedelta(seconds=STRIP_INTERVAL)
-		
-		deleted = session.query(
-			AverageCurr_10min.value).filter(
-		AverageCurr_10min.time < last_time).delete()
-		
-		logger.warning('Из таблицы AVERCUR10MIN удалено %i записей'%(deleted))
-		session.commit()
-		session.close()
 
 class AverageCurr(DB_Base):
-	__tablename__ = 'AVERCUR'
-	id = Column(Integer, primary_key = True)
-	time = Column(DateTime(timezone=True), default=datetime.datetime.now)
-	ch = Column(Integer)
-	value = Column(Float)
-
-	def __init__(self, value, ch):
-		self.value = value
-		self.ch = ch
-
-class AverageCurr_1min(DB_Base):
-	__tablename__ = 'AVERCUR1MIN'
-	id = Column(Integer, primary_key = True)
-	time = Column(DateTime(timezone=True), default=datetime.datetime.now)
-	ch = Column(Integer)
-	value = Column(Float)
-
-	def __init__(self, value, ch):
-		self.value = value
-		self.ch = ch
-
-class AverageCurr_10min(DB_Base):
-	__tablename__ = 'AVERCUR10MIN'
+	__tablename__ = 'CURDATA'
 	id = Column(Integer, primary_key = True)
 	time = Column(DateTime(timezone=True), default=datetime.datetime.now)
 	ch = Column(Integer)
