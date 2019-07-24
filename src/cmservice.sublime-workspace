@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"de",
+				"deleted"
+			],
+			[
 				"ch",
 				"channel"
 			],
@@ -118,10 +122,6 @@
 			[
 				"v",
 				"val_count"
-			],
-			[
-				"de",
-				"define"
 			],
 			[
 				"st",
@@ -384,15 +384,6 @@
 	"buffers":
 	[
 		{
-			"file": "data_analysis.py",
-			"settings":
-			{
-				"buffer_size": 2351,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "main_routine.py",
 			"settings":
 			{
@@ -415,6 +406,15 @@
 			"settings":
 			{
 				"buffer_size": 1242,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db_datastrip.py",
+			"settings":
+			{
+				"buffer_size": 1914,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -560,6 +560,7 @@
 	],
 	"file_history":
 	[
+		"/home/saurex/Projects/cmservice/src/data_analysis.py",
 		"/home/saurex/Projects/cmservice/src/sysfiles/harvester.service",
 		"/home/saurex/Projects/cmservice/src/data_harvester.py",
 		"/home/saurex/Projects/cmservice/src/xxxxxxxxxxxxx.py",
@@ -568,7 +569,6 @@
 		"/home/saurex/Projects/cmservice/src/db_tables.py",
 		"/home/saurex/Projects/cmservice/src/sysfiles/db_tabels.py",
 		"/home/saurex/Projects/cmservice/src/docs/postgres.md",
-		"/home/saurex/Projects/cmservice/src/data_analysis.py",
 		"/home/saurex/Projects/cmservice/src/db_datastrip.py",
 		"/home/saurex/Projects/cmservice/src/frame.py",
 		"/home/saurex/Projects/cmservice/src/mitter.log",
@@ -691,7 +691,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -770,38 +770,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "data_analysis.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2351,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1070,
-								1070
-							]
-						],
-						"settings":
-						{
-							"SL.125.region_keys":
-							[
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "main_routine.py",
 					"semi_transient": false,
 					"settings":
@@ -826,11 +794,11 @@
 						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "db_journal.py",
 					"semi_transient": false,
 					"settings":
@@ -862,7 +830,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "param.py",
 					"semi_transient": false,
 					"settings":
@@ -874,8 +842,8 @@
 						"selection":
 						[
 							[
-								784,
-								784
+								468,
+								468
 							]
 						],
 						"settings":
@@ -883,10 +851,40 @@
 							"SL.127.region_keys":
 							[
 							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "db_datastrip.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
