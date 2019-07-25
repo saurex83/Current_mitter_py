@@ -45,3 +45,6 @@ select *
 	from "AVERCUR" 
 	where "time" > NOW() at time zone 'utc'  - interval '1 minutes'and "ch" = 0
 
+# Индексирование.
+Без индексов скорость выборки низкая. Сильно страдает история
+create index CURDATA_INDEX on "CURDATA"(time);

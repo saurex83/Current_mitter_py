@@ -179,7 +179,7 @@ class Journal(DB_Base):
 class Curdata(DB_Base):
 	__tablename__ = 'CURDATA'
 	id = Column(Integer, primary_key = True)
-	time = Column(DateTime(timezone=True), default=datetime.datetime.now)
+	time = Column(DateTime(timezone=True), default=datetime.datetime.now, index = True)
 	# DateTime(timezone=True), server_default=func.now()
 	# time = Column(DateTime, default=datetime.datetime.now)
 	ch = Column(Integer)
