@@ -420,6 +420,15 @@
 			}
 		},
 		{
+			"file": "docs/rpi.md",
+			"settings":
+			{
+				"buffer_size": 681,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "param.py",
 			"settings":
 			{
@@ -811,7 +820,7 @@
 						"translation.y": 1071.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -840,7 +849,7 @@
 						"translation.y": 816.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -868,7 +877,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -884,8 +893,8 @@
 						"selection":
 						[
 							[
-								4304,
-								4304
+								645,
+								645
 							]
 						],
 						"settings":
@@ -897,7 +906,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2397.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -905,6 +914,34 @@
 				},
 				{
 					"buffer": 4,
+					"file": "docs/rpi.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								681,
+								681
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "param.py",
 					"semi_transient": false,
 					"settings":
@@ -932,11 +969,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "db_datastrip.py",
 					"semi_transient": false,
 					"settings":
@@ -961,7 +998,7 @@
 						"translation.y": 653.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

@@ -26,3 +26,7 @@ sshfs mitter@192.168.1.234:/home/mitter/ /home/saurex/Projects/cmservice/
 ## Программа cmservice 
 Работает в виртуальном окружении Python
 
+## Доступ к последовательному порту
+Для доступа к ttyS0 пользователю от имени которого запускается служба
+нужно добавить членство в группе dialou 
+sudo chmod -aG dialout sauerx83
