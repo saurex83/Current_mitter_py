@@ -11,8 +11,8 @@ WorkingDirectory=/opt/Current_mitter_py/
 
 Restart=always
 
-User=saurex83
-Group=saurex83
+User=root
+Group=root
 
 TimeoutSec=300
 
